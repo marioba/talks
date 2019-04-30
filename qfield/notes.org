@@ -1,0 +1,225 @@
+* FOSS4G-IT 2019 Presentazione QField
+** Because data is outside
+   Buongiorno, parleremo
+   di QField, la soluzione pensata per portare QGIS all'esterno, là dove stanno i dati.
+** Mario Baranzini
+   Io sono Mario Baranzini, lavoro Iin Svizzera come sviluppatore soprattutto in
+   Python e Java, principalmente su cose legate a QGIS.
+** Opengis.ch
+   Lavoro per una ditta chiamata Opengis.ch. Ci occupiamo di sviluppi
+   in ambito geografico
+** Opengis loves open source
+   Ci occupiamo praticamente soltanto di software opensource e siamo molto
+   attivi nello sviluppo di QGIS.
+** What is QField?
+   Ok, parliamo di QField adesso, cos'è?
+** A mobile based...
+   È un'app, per Android pensata per poter lavorare nel terreno con
+   QGIS. Attualmente è solo per Android, ma non escludiamo che in futuro si
+   possa portare su altre piattaforme tipo iOS. Ci sono alcuni problemi di
+   compatibilità di licenza con Apple Store ma ci sarebbero altri modi per
+   distribuire l'app. Se qualcuno fosse interessato a sponsorizzarlo, si
+   potrebbe fare.
+** A minimalistic
+   QField, non è semplicemente un porting di QGIS su Android. Ne esiste uno,
+   anche se (se non sbaglio) fermo alla versione 2.18. QField usa le librerie
+   QGIS su Android con una UI differente. Per cui c'è tutta la potenza di QGIS
+   (esclusa la parte Python) ma con un'interfaccia pensata per dispositivi touch.
+** Why Qfield?
+   Perché?
+** Because data is outside
+   Perché i dati solitamente sono all'esterno. E non sempre è comodo lavorare
+   con un laptop e poter utilizzare un tablet o uno smartphone può essere molto
+   comodo.
+** The missing bit
+   È il pezzo mancante nell'ecosistema QGIS, che propone soluzioni server,
+   desktop, web e con QField, mobile.
+** What can I do?
+   Cosa posso fare con QField
+** Comfortably prepare
+   Preparare il lavoro comodamente davanti al computer in ufficio con QGIS e poi
+   utilizzare lo stesso progetto QGIS per ad esempio raccogliere i dati
+   all'esterno.
+** What is in QField?
+   Cosa c'è in QField?
+** QGIS experience
+   Come già detto, la possibilità di usare le funzionalità di QGIS su
+   un'interfaccia pensata per il touch.
+** QGIS Forms
+   È possibile ad esempio usare i moduli definiti in QGIS con drag-and-drop
+   designer, definire visibilità condizionale, regole sugli attributi ecc. e
+   pure la possibilità di raccogliere fotografie tramite la fotocamera del
+   dispositivo e aggiungerle ai dati raccolti.
+** Digitize and edit
+   È possibile digitalizzare e modificare le geometrie con snapping. usare GPS
+   interni e esterni.
+** What workflows
+   Vediamo alcuni possibili flussi di lavoro possibili lavorando con QGIS e
+   QField.
+** The explorer
+   L'esploratore, prepara il suo progetto in ufficio con QGIS e la struttura dei
+   dati ad esempio in un geopackage, sposta tutto sul suo bel tablet e va nella
+   giungla a registrare i serpenti che incontra.
+** The lone ranger
+   Il ranger solitario. Lavora sui suoi dati da solo. Prepara quello che gli
+   serve e ad esempio mette i suoi dati su un dropbox o simile e li usa su
+   mobile e desktop
+** Online live editing
+   Possiamo avere i dati online, ad esempio un database postgres.
+** Offline
+   Oppure possiamo lavorare offline sul terreno e poi sincronizzare i dati al
+   ritorno in ufficio. ha dei vantaggi che non richiede una connessione costante
+   e permette di avere un filtro (un punto di passaggio) prima di importare i
+   dati. QFieldSync è un plugin che permette di prendere una parte dei dati e
+   poi risincronizzarli alla fine. 
+   Per il momento bisogna scegliere prima se si vuole lavorare online o offline,
+   non è possibile una soluzione ibrida tipo che lavoro online, e continuo se
+   non ho più connessione e poi sincronizzo quando ce l'ho di nuovo. Ci
+   piacerebbe lavorarci e poter fornire una soluzione del genere prossimamente.
+** Custom applications
+   È possibile anche creare delle applicazioni ad hoc sfruttando gli elementi di
+   QField. Ad esempio creando un app che permette solo la visualizzazione di un
+   progetto definito. 
+** Action
+   Vediamo un qualche esempio
+** Mapthemes 
+   Il motore di rendering è quello di QGIS e gli stili vengono mostrati nello
+   stesso identico modo. Posso creare dei temi con stili e scegliendo quali
+   layer accendere o spegnere in QGIS.
+** Constraints
+   Come si dice in vero italiano? Restrizioni?
+   Si vede che si possono avere diversi tipi di campi e mettere dei controlli
+   sui campi.
+** Digitising with picture
+** Printing PDF
+   Si possono utilizzare i print template di QGIS per esportare PDF.
+** Editing
+   Le geometrie si possono modificare, spostare vertici, aggiungerne e toglierne.
+** Roadmap
+   È iniziato come un semplice visualizzatore di progetti QGIS...
+   Adesso stiamo lavorando per rilasciare a breve la versione 1.0. Alcuni
+   possibili sviluppi futuri potrebbero essere la possibilità di lavorare
+   online-offline, strumenti di digitalizzazione più avanzati, 
+   la possibilità di usare sensori esterni o i qualsiasi soluzione custom. 
+** Version 1.0
+   Abbiamo rilasciato aclune RC, siamo alla RC3, ci sono stati molti
+   aggiustamenti ad esempio un nuovo file selector...
+** Join the effort
+   - test
+   - sviluppo
+   - traduzioni
+   - documentazione
+   - sponsorizzazione
+
+* CAA 2019 Krakow
+** Because data is outside
+   Buongiorno, parleremo
+   di QField, la soluzione pensata per portare QGIS all'esterno, là dove stanno i dati.
+** Mario Baranzini
+   Io sono Mario Baranzini, lavoro in Svizzera come sviluppatore soprattutto in
+   Python e Java, principalmente su cose legate a QGIS.
+** Opengis.ch
+   Lavoro per una ditta chiamata Opengis.ch. Ci occupiamo di sviluppi
+   in ambito geografico
+** Opengis loves open source
+   Ci occupiamo praticamente soltanto di software opensource e siamo molto
+   attivi nello sviluppo di QGIS.
+** What is QField?
+   Ok, parliamo di QField adesso, cos'è?
+** A mobile based...
+   È un'app, per Android pensata per poter lavorare nel terreno con
+   QGIS. Attualmente è solo per Android, ma non escludiamo che in futuro si
+   possa portare su altre piattaforme tipo iOS. Ci sono alcuni problemi di
+   compatibilità di licenza con Apple Store ma ci sarebbero altri modi per
+   distribuire l'app. Se qualcuno fosse interessato a sponsorizzarlo, si
+   potrebbe fare.
+** A minimalistic
+   QField, non è semplicemente un porting di QGIS su Android. Ne esiste uno,
+   anche se (se non sbaglio) fermo alla versione 2.18. QField usa le librerie
+   QGIS su Android con una UI differente. Per cui c'è tutta la potenza di QGIS
+   (esclusa la parte Python) ma con un'interfaccia pensata per dispositivi touch.
+** Why Qfield?
+   Perché?
+** Because data is outside
+   Perché i dati solitamente sono all'esterno. E non sempre è comodo lavorare
+   con un laptop e poter utilizzare un tablet o uno smartphone può essere molto
+   comodo.
+** The missing bit
+   È il pezzo mancante nell'ecosistema QGIS, che propone soluzioni server,
+   desktop, web e con QField, mobile.
+** What can I do?
+   Cosa posso fare con QField
+** Comfortably prepare
+   Preparare il lavoro comodamente davanti al computer in ufficio con QGIS e poi
+   utilizzare lo stesso progetto QGIS per ad esempio raccogliere i dati
+   all'esterno.
+** What is in QField?
+   Cosa c'è in QField?
+** QGIS experience
+   Come già detto, la possibilità di usare le funzionalità di QGIS su
+   un'interfaccia pensata per il touch.
+** QGIS Forms
+   È possibile ad esempio usare i moduli definiti in QGIS con drag-and-drop
+   designer, definire visibilità condizionale, regole sugli attributi ecc. e
+   pure la possibilità di raccogliere fotografie tramite la fotocamera del
+   dispositivo e aggiungerle ai dati raccolti.
+** Digitize and edit
+   È possibile digitalizzare e modificare le geometrie con snapping. usare GPS
+   interni e esterni.
+** What workflows
+   Vediamo alcuni possibili flussi di lavoro possibili lavorando con QGIS e
+   QField.
+** The explorer
+   L'esploratore, prepara il suo progetto in ufficio con QGIS e la struttura dei
+   dati ad esempio in un geopackage, sposta tutto sul suo bel tablet e va nella
+   giungla a registrare i serpenti che incontra.
+** The lone ranger
+   Il ranger solitario. Lavora sui suoi dati da solo. Prepara quello che gli
+   serve e ad esempio mette i suoi dati su un dropbox o simile e li usa su
+   mobile e desktop
+** Online live editing
+   Possiamo avere i dati online, ad esempio un database postgres.
+** Offline
+   Oppure possiamo lavorare offline sul terreno e poi sincronizzare i dati al
+   ritorno in ufficio. ha dei vantaggi che non richiede una connessione costante
+   e permette di avere un filtro (un punto di passaggio) prima di importare i
+   dati. QFieldSync è un plugin che permette di prendere una parte dei dati e
+   poi risincronizzarli alla fine. 
+   Per il momento bisogna scegliere prima se si vuole lavorare online o offline,
+   non è possibile una soluzione ibrida tipo che lavoro online, e continuo se
+   non ho più connessione e poi sincronizzo quando ce l'ho di nuovo. Ci
+   piacerebbe lavorarci e poter fornire una soluzione del genere prossimamente.
+** Custom applications
+   È possibile anche creare delle applicazioni ad hoc sfruttando gli elementi di
+   QField. Ad esempio creando un app che permette solo la visualizzazione di un
+   progetto definito. 
+** Action
+   Vediamo un qualche esempio
+** Mapthemes 
+   Il motore di rendering è quello di QGIS e gli stili vengono mostrati nello
+   stesso identico modo. Posso creare dei temi con stili e scegliendo quali
+   layer accendere o spegnere in QGIS.
+** Constraints
+   Come si dice in vero italiano? Restrizioni?
+   Si vede che si possono avere diversi tipi di campi e mettere dei controlli
+   sui campi.
+** Digitising with picture
+** Printing PDF
+   Si possono utilizzare i print template di QGIS per esportare PDF.
+** Editing
+   Le geometrie si possono modificare, spostare vertici, aggiungerne e toglierne.
+** Roadmap
+   È iniziato come un semplice visualizzatore di progetti QGIS...
+   Adesso stiamo lavorando per rilasciare a breve la versione 1.0. Alcuni
+   possibili sviluppi futuri potrebbero essere la possibilità di lavorare
+   online-offline, strumenti di digitalizzazione più avanzati, 
+   la possibilità di usare sensori esterni o i qualsiasi soluzione custom. 
+** Version 1.0
+   Abbiamo rilasciato aclune RC, siamo alla RC3, ci sono stati molti
+   aggiustamenti ad esempio un nuovo file selector...
+** Join the effort
+   - test
+   - sviluppo
+   - traduzioni
+   - documentazione
+   - sponsorizzazione
